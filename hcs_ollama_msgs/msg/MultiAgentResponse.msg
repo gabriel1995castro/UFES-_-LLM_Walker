@@ -1,0 +1,6 @@
+string user_request
+bool validate_request
+string direct_request
+string goal_name
+string specific_goal_name
+ObjectiveCoordinates goal_coordinates

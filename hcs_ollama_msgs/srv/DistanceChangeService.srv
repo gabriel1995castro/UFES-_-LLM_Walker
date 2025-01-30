@@ -1,0 +1,6 @@
+# Request 
+float32 input_value
+---
+# Response
+bool success
+string response

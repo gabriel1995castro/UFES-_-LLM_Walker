@@ -1,0 +1,12 @@
+# Request 
+string prompt # Input from user
+---
+# response
+EvaluatorResponse evaluator_response
+LocalizatorResponse localizator_response
+ExecutorResponse executor_response
+---
+# Feedback
+string status # Status of process
+string agent_name
+string feedback_response

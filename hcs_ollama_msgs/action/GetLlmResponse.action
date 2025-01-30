@@ -1,0 +1,7 @@
+string prompt                       # input prompt
+SystemConfigurationAi ai_config
+bool validate_stream true           # Boolean for stream msg
+---
+string response                   # final responsse
+---
+string partial_response           # partial response

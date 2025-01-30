@@ -1,0 +1,191 @@
+{
+    "area_layout": {
+      "map_central_point": {
+        "coordinates": { "x": 0, "y": 0 },
+        "description": "Central point of the general workspace area"
+      },
+      "offices": [
+        {
+          "name": "Human Centered System Laboratory",
+          "description": "Laboratory located at the center of the workspace",
+          "central_point": {
+            "coordinates": { "x": 2.0, "y": 0.17 }
+          },
+          "dimensions": {
+            "length": 6.54,
+            "width": 6.68
+          },
+          "boundaries": {
+            "south_wall": { "x1": -1.27, "y1": -3.17, "x2": 5.27, "y2": -3.17 },
+            "north_wall": { "x1": -1.27, "y1": 3.51, "x2": 5.27, "y2": 3.51 },
+            "east_wall": { "x1": 5.27, "y1": -3.17, "x2": 5.27, "y2": 3.51 },
+            "west_wall": { "x1": -1.27, "y1": -3.17, "x2": -1.27, "y2": 3.51 }
+          },
+          "door": {
+            "coordinates": { "x": -1.6, "y": -2.37 },
+            "width": 1.2,
+            "description": "Door connecting to the Main Corridor on the west wall"
+          }
+        },
+        {
+          "name": "Main Corridor",
+          "description": "Corridor running north to south through the workspace",
+          "central_point": {
+            "coordinates": { "x": -3.04, "y": -0.35 }
+          },
+          "dimensions": {
+            "length": 2.87,
+            "width": 42.3
+          },
+          "boundaries": {
+            "south_wall": { "x1": -4.47, "y1": -21.5, "x2": -1.6, "y2": -21.5 },
+            "north_wall": { "x1": -4.09, "y1": 20.8, "x2": -1.74, "y2": 20.8 },
+            "east_wall": { "x1": -1.6, "y1": -21.5, "x2": -1.74, "y2": 20.8 },
+            "west_wall": { "x1": -4.47, "y1": -21.5, "x2": -4.09, "y2": 20.8 }
+          },
+          "doors": [
+            {
+              "coordinates": { "x": -1.6, "y": -2.37 },
+              "width": 1.0,
+              "description": "Door connecting to the Human-Centered Laboratory on the east wall"
+            },
+            {
+              "coordinates": { "x": -1.6, "y": 11 },
+              "width": 2,
+              "description": "Door leading to Northern Offices on the east wall"
+            },
+            {
+              "coordinates": { "x": -4.27, "y": 16.4 },
+              "width": 2,
+              "description": "Main Entrance Door on the west wall"
+            },
+            {
+              "coordinates": { "x": -4.27, "y": 7.83 },
+              "width": 1.2,
+              "description": "Door leading to the Conference Room on the west wall"
+            },
+            {
+              "coordinates": { "x": -4.27, "y": -2.27 },
+              "width": 1.2,
+              "description": "Door leading to the Storage Room on the west wall"
+            },
+            {
+              "coordinates": { "x": -4.27, "y": -3.37 },
+              "width": 1.2,
+              "description": "Door leading to the Mechanical Room on the west wall"
+            },
+            {
+              "coordinates": { "x": -1.6, "y": -4.09 },
+              "width": 1.2,
+              "description": "Door leading to the Electrical Room on the east wall"
+            },
+            {
+              "coordinates": { "x": -4.27, "y": -14.09 },
+              "width": 1.2,
+              "description": "Door connecting to the Cafeteria Area on the west wall"
+            }
+          ],
+          "additional_description": "The corridor has multiple doors, some shared with known rooms."
+        },
+        {
+          "name": "Cafeteria Area",
+          "description": "Cafeteria located in the southwest of the workspace",
+          "central_point": {
+            "coordinates": { "x": -8.15, "y": -17.7 }
+          },
+          "dimensions": {
+            "length": 6.9,
+            "width": 7.0
+          },
+          "boundaries": {
+            "south_wall": { "x1": -11.7, "y1": -21.2, "x2": -4.8, "y2": -21.2 },
+            "north_wall": { "x1": -11.4, "y1": -14.2, "x2": -4.59, "y2": -14.2 },
+            "east_wall": { "x1": -4.8, "y1": -21.2, "x2": -4.59, "y2": -14.2 },
+            "west_wall": { "x1": -11.7, "y1": -21.2, "x2": -11.4, "y2": -14.2 }
+          },
+          "door": {
+            "coordinates": { "x": -4.27, "y": -14.09 },
+            "width": 1.2,
+            "description": "Door connecting to the Main Corridor on the east wall"
+          }
+        },
+        {
+          "name": "Hallway to Bathrooms",
+          "description": "Hallway leading to the bathrooms, located in the southern part of the workspace",
+          "central_point": {
+            "coordinates": { "x": -0.095, "y": -18.0 }
+          },
+          "dimensions": {
+            "length": 2.95,
+            "width": 2.2
+          },
+          "boundaries": {
+            "south_wall": { "x1": -1.57, "y1": -19.1, "x2": 1.36, "y2": -19.1 },
+            "north_wall": { "x1": -1.44, "y1": -16.9, "x2": 1.38, "y2": -16.9 },
+            "east_wall": { "x1": 1.36, "y1": -19.1, "x2": 1.38, "y2": -16.9 },
+            "west_wall": null
+          },
+          "door": {
+            "coordinates": { "x": -1.6, "y": -18.0 },
+            "width": 1.0,
+            "description": "Open access to the Main Corridor on the west side"
+          },
+          "additional_description": "The absence of a west wall indicates this hallway is directly connected to the adjacent area."
+        },
+        {
+          "name": "Southwest Lobby",
+          "description": "Lobby located in the southwest corner of the workspace",
+          "central_point": {
+            "coordinates": { "x": -8.05, "y": -11.51 }
+          },
+          "dimensions": {
+            "length": 7.5,
+            "width": 5.0
+          },
+          "boundaries": {
+            "south_wall": { "x1": -11.8, "y1": -14.01, "x2": -4.3, "y2": -14.01 },
+            "north_wall": { "x1": -11.8, "y1": -9.01, "x2": -4.37, "y2": -9.01 },
+            "east_wall": null,
+            "west_wall": { "x1": -11.8, "y1": -14.01, "x2": -11.8, "y2": -9.01 }
+          },
+          "door": {
+            "coordinates": { "x": -4.27, "y": -11.51 },
+            "width": 1.2,
+            "description": "Open access to the Main Corridor on the east side"
+          },
+          "additional_description": "The absence of an east wall means this lobby is directly connected to the adjacent area."
+        },
+        {
+          "name": "Southeast Lobby",
+          "description": "Lobby located in the southeast corner of the workspace",
+          "central_point": {
+            "coordinates": { "x": 0.47, "y": -11.51 }
+          },
+          "dimensions": {
+            "length": 4.72,
+            "width": 5.0
+          },
+          "boundaries": {
+            "south_wall": { "x1": -1.89, "y1": -14.01, "x2": 2.83, "y2": -14.01 },
+            "north_wall": { "x1": -1.89, "y1": -9.01, "x2": 2.83, "y2": -9.01 },
+            "east_wall": { "x1": 2.83, "y1": -14.01, "x2": 2.83, "y2": -9.01 },
+            "west_wall": null
+          },
+          "door": {
+            "coordinates": { "x": -1.6, "y": -11.51 },
+            "width": 1.2,
+            "description": "Open access to the Main Corridor on the west side"
+          },
+          "additional_description": "The absence of a west wall means this lobby is directly connected to the adjacent area."
+        }
+      ],
+      "general_description": [
+        "The workspace area features laboratories, corridors, and common areas such as cafeterias and lobbies.",
+        "The Main Corridor has multiple doors, some shared with known rooms, facilitating easy access throughout the workspace.",
+        "The coordinates of the walls and central points of each space are specified to define boundaries and facilitate navigation.",
+        "Some spaces lack certain walls or have open access instead of doors, indicating direct connections to adjacent areas.",
+        "Areas without walls are directly connected to adjacent spaces, allowing for an open layout between connected spaces."
+      ]
+    }
+  }
+  

@@ -1,0 +1,5 @@
+# Request 
+string text # Input prompt
+---
+# Response
+int32[] tokens # Lista de valores tokens

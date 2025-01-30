@@ -1,0 +1,5 @@
+# Request 
+string input # Input list tokens
+---
+# Response
+float32[] vector # Output prompt
