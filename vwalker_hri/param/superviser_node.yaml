@@ -1,0 +1,5 @@
+/**:
+    ros__parameters:
+        user/weight: 30.0
+        use_distance: true
+        max_distance: 1.4
